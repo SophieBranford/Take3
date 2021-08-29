@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "255123832674",
+    "project_id": "take3-ef5d6",
+    "storage_bucket": "take3-ef5d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255123832674:android:676211514ae6b8bf78763b",
+        "android_client_info": {
+          "package_name": "com.example.take3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255123832674-m71ugh0e2kgio02qgspeifc7lrmu663d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC1ForihPk8x11Ki__Z1Whk0g7V5urv0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255123832674-m71ugh0e2kgio02qgspeifc7lrmu663d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

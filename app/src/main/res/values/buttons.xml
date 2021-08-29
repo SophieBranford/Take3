@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--array for storing circle_menu_icons-->
+    <array name="buttonicons">
+        <item>@drawable/homeicon</item>
+        <item>@drawable/uploadicon</item>
+        <item>@drawable/browseicon</item>
+        <item>@drawable/infoicon</item>
+        <item>@drawable/savedicon</item>
+    </array>
+
+    <!-- array for storing colour of buttons that icon is on-->
+    <array name="buttoncolours">
+        <item>@android:color/holo_blue_bright</item>
+        <item>@android:color/holo_orange_light</item>
+        <item>@android:color/holo_green_dark</item>
+        <item>@android:color/holo_purple</item>
+        <item>@android:color/holo_red_light</item>
+    </array>
+
+</resources>

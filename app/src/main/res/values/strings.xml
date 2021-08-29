@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TAK3</string>
+    <string name="title_log_in">Log In</string>
+    <string name="email_login">Email</string>
+    <string name="password_login">Password</string>
+    <string name="log_in_btn">LOG IN</string>
+    <string name="signup_txt">Don\'t have an account? <u><b>REGISTER.</b></u></string>
+    <string name="title_register">Register</string>
+    <string name="email_reg">Email:</string>
+    <string name="password_reg">Password:</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="register_btn">REGISTER</string>
+    <string name="register_txt">Already have an account? <u><b>LOG IN.</b></u></string>
+
+    <string name="welcome"><b>WELCOME</b></string>
+
+    <string name="name"><b>SOPHIE H BRANFORD</b></string>
+    <string name="bannerid"><b>B00324770</b></string>
+    <string name="uni"><b>UNIVERSITY OF THE WEST OF SCOTLAND</b></string>
+
+    <string name="enter_description">Enter description</string>
+    <string name="upload_image_btn">UPLOAD THUMBNAIL</string>
+    <string name="upload_vid_btn">UPLOAD VIDEO</string>
+    <string name="post_btn">POST</string>
+
+    <string name="text_edit"><b>EDITS</b></string>
+    <string name="text_music"><b>MUSIC</b></string>
+    <string name="back_btn">back</string>
+
+    <!--the text in underneath strings are courtesy of Wikipedia-->
+    <string name="after_effects_info">Released in 1993, Adobe After Effects is a digital
+        visual effects, motion graphics, and compositing application developed by Adobe Systems
+        and used in the post-production process of film making, video games and television production.
+        Among other things, After Effects can be used for keying, tracking, compositing, and animation.</string>
+    <string name="vegas_pro_info">Released in 1999, Vegas Pro is a video editing software package for
+        non-linear editing. Vegas features real-time multitrack video and audio editing on unlimited
+        tracks, resolution-independent video sequencing, complex effects and compositing tools.  </string>
+    <!--the text in underneath string is mainly courtesy of CommonSenseMedia, with alterations-->
+    <string name="video_star_info">Released in 2011, Video Star is a music video creation tool developed by
+        the Frontier Design Group. It records video only, and not audio, with numerous onboard special
+        effects and upgrades available with in-app purchases.</string>
+    <string name="alight_motion_info">Released in 2019, Alight Motion is the first professional Motion Design
+        app for smartphones, bringing professional-quality animation, motion graphics, visual effects,
+        video editing, video compositing and more.</string>
+
+</resources>
