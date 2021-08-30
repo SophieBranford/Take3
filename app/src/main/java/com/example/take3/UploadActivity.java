@@ -418,7 +418,7 @@ public class UploadActivity extends AppCompatActivity {
                     //the bytes transferred will be divided by the total number of bytes
                     double progress = (100.0 * taskSnapshot.getBytesTransferred()) / taskSnapshot.getTotalByteCount();
                     //increments value of progress bar as image uploads
-                    mProgressBar.incrementProgressBy((int) progress); 
+                    mProgressBar.incrementProgressBy((int) progress);
                 }
             });
         } else {
