@@ -348,7 +348,7 @@ public class UploadActivity extends AppCompatActivity {
                             //IF upload of image is successful
                             if (task.isSuccessful()) {
                                 //get the image Uri and store it to variable to use once
-                                //video data is retrieved ib putFile() method later on
+                                //video data is retrieved in putFile() method later on
                                 imageDownloadUri = task.getResult();
                             }
                         }
