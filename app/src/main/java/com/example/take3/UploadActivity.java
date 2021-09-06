@@ -69,8 +69,7 @@ public class UploadActivity extends AppCompatActivity {
     private Uri imageDownloadUri;
 
     private StorageReference mStorageRef;
-    private DatabaseReference mDatabaseImageRef;
-    private DatabaseReference mDatabaseVideoRef;
+    private DatabaseReference mDatabaseRef;
 
     StorageTask mUploadTask;
 
@@ -89,8 +88,7 @@ public class UploadActivity extends AppCompatActivity {
 
         //get storage and database reference
         mStorageRef = FirebaseStorage.getInstance().getReference();
-        mDatabaseImageRef = FirebaseDatabase.getInstance().getReference("upload");
-        mDatabaseVideoRef = FirebaseDatabase.getInstance().getReference("upload");
+        mDatabaseRef = FirebaseDatabase.getInstance().getReference("upload");
 
         mVideoView = findViewById(R.id.videoView);
         Button mBtnChooseVideo = findViewById(R.id.uploadVidBtn);
@@ -387,7 +385,7 @@ public class UploadActivity extends AppCompatActivity {
 
                                 //push data to and create new entry in database
                                 //containing meta data of upload
-                                mDatabaseImageRef.push().setValue(upload);
+                                mDatabaseRef.push().setValue(upload);
 
                                 //display message to let user know edit has been posted
                                 Toast.makeText(UploadActivity.this, "Posted edit!", Toast.LENGTH_LONG).show();
